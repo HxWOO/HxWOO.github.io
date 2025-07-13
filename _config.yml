@@ -2,7 +2,7 @@ title: 내 블로그
 description: Jekyll Hamilton 테마 기반 개인 블로그
 author: HxWOO
 avatar: /logo.png
-email: ngzhio@gmail.com
+email: kimjd766@gmail.com
 
 plugins:
   - jekyll-seo-tag
@@ -29,15 +29,9 @@ exclude:
 
 # Jekyll SEO Tag (Optional)
 # =========================
-twitter:
-  username: HxWOO
-  card: summary
 logo: logo.png
 social:
   name: HxWOO
   links:
-    - https://twitter.com/ngzhio
-    - https://www.facebook.com/ngzhio
     - https://github.com/HxWOO
-google_site_verification: u4WXQl0Eu66rsQo2kRdCNx
-lang: en
+lang: ko-kr
