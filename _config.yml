@@ -1,7 +1,7 @@
-title: 내 블로그
-description: Jekyll Hamilton 테마 기반 개인 블로그
+title: 비트n바이트
+description: 백엔드 개발과 AI 엔지니어링에 대한 HxWOO의 학습 및 경험 공유 블로그입니다.
 author: HxWOO
-avatar: /logo.png
+avatar: https://avatars.githubusercontent.com/u/128457220?s=400&u=ed67f7a8507fb3af6228bea4faf8afcd76f85b17&v=4
 email: kimjd766@gmail.com
 
 plugins:
