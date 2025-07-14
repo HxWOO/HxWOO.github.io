@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "1주차 2일차: 파이썬 심화 - 함수 시그니처와 평가 전략"
-date:   2025-07-08 09:00:00 +0900
+date:   2025-07-02 09:00:00 +0900
 categories: [AI Engineering, Woori FISA]
 tags: [Python, Short-circuit Evaluation, Lazy Evaluation, Function Signature]
 ---

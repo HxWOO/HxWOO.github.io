@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "2주차 9일차: Pandas 기초 - 데이터 조작과 분석의 시작"
-date:   2025-07-18 09:00:00 +0900
+date:   2025-07-09 09:00:00 +0900
 categories: [AI Engineering, Woori FISA]
 tags: [Python, Pandas, DataFrame, Data Analysis, Data Manipulation]
 ---

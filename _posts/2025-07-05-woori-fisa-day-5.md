@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "2주차 5일차: 파이썬 함수형 프로그래밍과 실용적인 모듈들"
-date:   2025-07-14 09:00:00 +0900
+date:   2025-07-05 09:00:00 +0900
 categories: [AI Engineering, Woori FISA]
 tags: [Python, Functional Programming, List Comprehension, Generator, Collections, Regex]
 ---

@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "1주차 4일차: 파이썬 핵심 개념 - Iterable, Docstring, Decorator"
-date:   2025-07-10 09:00:00 +0900
+date:   2025-07-04 09:00:00 +0900
 categories: [AI Engineering, Woori FISA]
 tags: [Python, Iterable, Iterator, Docstring, Decorator, '*args', '**kwargs']
 ---

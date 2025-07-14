@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "2주차 7일차: 파이썬 클래스 심화 - 상속, 매직 메서드, 데코레이터"
-date:   2025-07-16 09:00:00 +0900
+date:   2025-07-07 09:00:00 +0900
 categories: [AI Engineering, Woori FISA]
 tags: [Python, Class, Inheritance, Magic Methods, Name Mangling, Decorator]
 ---

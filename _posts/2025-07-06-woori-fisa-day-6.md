@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "2주차 6일차: 파이썬 구조화 - 모듈, 패키지, 클래스"
-date:   2025-07-15 09:00:00 +0900
+date:   2025-07-06 09:00:00 +0900
 categories: [AI Engineering, Woori FISA]
 tags: [Python, Module, Package, Exception Handling, Class, OOP]
 ---

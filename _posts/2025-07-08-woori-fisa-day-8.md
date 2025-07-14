@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "2주차 8일차: Numpy 기초 - 데이터 분석의 첫걸음"
-date:   2025-07-17 09:00:00 +0900
+date:   2025-07-08 09:00:00 +0900
 categories: [AI Engineering, Woori FISA]
 tags: [Python, Numpy, ndarray, Data Analysis, Vectorization]
 ---
