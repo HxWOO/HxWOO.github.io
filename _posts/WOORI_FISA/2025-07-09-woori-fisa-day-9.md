@@ -3,7 +3,7 @@ layout: post
 title:  "2주차 9일차: Pandas 기초 - 데이터 조작과 분석의 시작"
 date:   2025-07-09 09:00:00 +0900
 categories: [AI Engineering, Woori FISA]
-tags: [Python, Pandas, DataFrame, Data Analysis, Data Manipulation]
+tags: [Python, Pandas, DataFrame, Data Analysis, Data Manipulation, '#우리FIS아카데미', '#우리FISA', '#AI엔지니어링', '#K-디지털트레이닝', '#우리에프아이에스', '#글로벌소프트웨어캠퍼스']
 ---
 
 ## 🐼 Pandas (Python Data Analysis Library)

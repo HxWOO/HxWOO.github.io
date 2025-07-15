@@ -3,7 +3,7 @@ layout: post
 title:  "1주차 3일차: 파이썬 고급 문법 - Flag, match-case, Walrus"
 date:   2025-07-03 09:00:00 +0900
 categories: [AI Engineering, Woori FISA]
-tags: [Python, Flag Variable, match-case, Walrus Operator, Structural Pattern Matching]
+tags: [Python, Flag Variable, match-case, Walrus Operator, Structural Pattern Matching, '#우리FIS아카데미', '#우리FISA', '#AI엔지니어링', '#K-디지털트레이닝', '#우리에프아이에스', '#글로벌소프트웨어캠퍼스']
 ---
 
 ## ✅ Flag 변수의 활용
