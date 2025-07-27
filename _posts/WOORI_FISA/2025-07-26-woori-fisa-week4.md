@@ -7,7 +7,7 @@ tags: [ '#회고', '#첫달후기', '#우리FIS아카데미', '#우리FISA', '#A
 ---
 
 <div class="image-with-text">
-  <img src="https://raw.githubusercontent.com/HxWOO/HxWOO.github.io/master/_posts/WOORI_FISA/images/%ED%91%B8%EB%94%A9_%EC%BF%A0.jpg" width="300" height="300"  alt="이미지설명"/></br>
+  <img src="https://raw.githubusercontent.com/HxWOO/HxWOO.github.io/master/_posts/WOORI_FISA/images/%ED%91%B8%EB%94%A9_%EC%BF%A0.jpg" width="300" height="300"  alt="이미지설명"><br>
   <span style="color: gray; font-size: 14px; block; margin-top;">위비 프렌즈와 함께 시작하는 7월 회고 </span>
 </div>
 
