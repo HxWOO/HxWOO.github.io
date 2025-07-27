@@ -7,7 +7,7 @@ tags: [ '#회고', '#첫달후기', '#우리FIS아카데미', '#우리FISA', '#A
 ---
 
 <div class="image-with-text">
-  <img src="./images/푸딩_쿠.jpg" width="300" height="300"  alt="이미지설명"/></br>
+  <img src="https://github.com/HxWOO/HxWOO.github.io/blob/master/_posts/WOORI_FISA/images/푸딩_쿠.jpg" width="300" height="300"  alt="이미지설명"/></br>
   <span style="color: gray; font-size: 14px; block; margin-top;">위비 프렌즈와 함께 시작하는 7월 회고 </span>
 </div>
 
@@ -18,8 +18,8 @@ tags: [ '#회고', '#첫달후기', '#우리FIS아카데미', '#우리FISA', '#A
 그 동안 우리FISA 에서도 Udemy를 비롯해서 여러 지원을 해주셔서 더 빠르게 적응한것 같다.
 
 <div style="display: flex; justify-content: space-evenly;">
-  <img src="./images/버거리.jpg" width="250" height="250">
-  <img src="./images/jjimdark.jpg" width="250" height="250">
+  <img src="https://github.com/HxWOO/HxWOO.github.io/blob/master/_posts/WOORI_FISA/images/버거리.jpg" width="250" height="250">
+  <img src="https://github.com/HxWOO/HxWOO.github.io/blob/master/_posts/WOORI_FISA/images/jjimdark.jpg" width="250" height="250">
 </div>
 
 점심마다 근처 맛집을 찾아다니는 소소한 재미도 있다
