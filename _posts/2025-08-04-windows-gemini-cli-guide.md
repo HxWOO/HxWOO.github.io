@@ -24,20 +24,20 @@ Gemini CLI는 Node.js 런타임 환경을 기반으로 동작하므로, 먼저 N
     -   [https://nodejs.org/ko/download](https://nodejs.org/ko/download) 링크로 접속합니다.
     -   **LTS (Long Term Support)** 버전의 **Windows 설치 프로그램 (.msi)**를 다운로드합니다. LTS 버전이 가장 안정적입니다.
 
-    ![Node.js 다운로드 페이지](../assets/images/gemini-cli-guide/image.png)
+    ![Node.js 다운로드 페이지](/assets/images/gemini-cli-guide/image.png)
 
 2.  **설치 프로그램 실행**
     -   다운로드한 `.msi` 파일을 실행하고, 설치 마법사의 안내에 따라 진행합니다.
     -   대부분의 경우, `Next` 버튼을 누르고 라이선스 동의에 체크하면 됩니다.
 
-    ![설치 마법사 시작](../assets/images/gemini-cli-guide/image-1.png)
+    ![설치 마법사 시작](/assets/images/gemini-cli-guide/image-1.png)
 
-    ![라이선스 동의](../assets/images/gemini-cli-guide/image-2.png)
+    ![라이선스 동의](/assets/images/gemini-cli-guide/image-2.png)
 
 3.  **설치 완료**
     -   별도의 설정 변경 없이 `Next`를 눌러 설치를 완료합니다.
 
-    ![설치 완료](../assets/images/gemini-cli-guide/image-3.png)
+    ![설치 완료](/assets/images/gemini-cli-guide/image-3.png)
 
 ---
 
@@ -61,7 +61,7 @@ Node.js 준비 후, Gemini CLI를 설치할 차례입니다.
     > -   `install`: 패키지 설치 명령어.
     > -   `-g`: `--global`의 약자로, PC의 어떤 경로에서든 `gemini` 명령어를 사용할 수 있도록 전역으로 설치하는 옵션.
 
-    ![npm install 명령어로 설치하는 과정](../assets/images/gemini-cli-guide/image-4.png)
+    ![npm install 명령어로 설치하는 과정](/assets/images/gemini-cli-guide/image-4.png)
 
 ---
 
@@ -75,12 +75,12 @@ Node.js 준비 후, Gemini CLI를 설치할 차례입니다.
 2.  **테마 선택**
     -   화살표 키로 테마를 선택하고 `Enter`를 누릅니다. (테마는 나중에 변경 가능)
 
-    ![테마 선택 화면](../assets/images/gemini-cli-guide/image-5.png)
+    ![테마 선택 화면](/assets/images/gemini-cli-guide/image-5.png)
 
 3.  **로그인 방식 선택**
     -   Gemini 사용을 위한 인증 방식 선택. 3가지 옵션이 있습니다.
 
-    ![로그인 방식 선택 화면](../assets/images/gemini-cli-guide/image-6.png)
+    ![로그인 방식 선택 화면](/assets/images/gemini-cli-guide/image-6.png)
 
     > **🤔 각 방식의 특징**
     >
@@ -92,12 +92,12 @@ Node.js 준비 후, Gemini CLI를 설치할 차례입니다.
     -   `Sign in with Google`을 선택하면 웹 브라우저가 실행됩니다.
     -   사용할 Google 계정으로 로그인하고, 권한을 허용합니다.
 
-    ![웹 브라우저에서 계정 선택](../assets/images/gemini-cli-guide/image-7.png)
+    ![웹 브라우저에서 계정 선택](/assets/images/gemini-cli-guide/image-7.png)
 
 
     -   인증 성공 시, 웹페이지에 성공 메시지가 나타납니다.
 
-    ![인증 성공 화면](../assets/images/gemini-cli-guide/image-8.png)
+    ![인증 성공 화면](/assets/images/gemini-cli-guide/image-8.png)
 
 ---
 
@@ -123,12 +123,12 @@ Gemini CLI의 주요 기능으로, **`GEMINI.md`** 파일을 통해 AI의 역할
     > 3.  문서 정리 요청 시, 핵심 내용은 **굵게** 강조하고 표나 리스트를 활용할 것.
 
     - 규칙 정의시에도 LLM을 활용하면 더 구체적으로 정할 수 있습니다.
-    ![한글 요구사항을 AI로 번역](../assets/images/gemini-cli-guide/image-9.png)
+    ![한글 요구사항을 AI로 번역](/assets/images/gemini-cli-guide/image-9.png)
 
 4.  **규칙 번역 (선택 사항)**
     -   AI가 영어 규칙을 더 잘 이해하는 경향이 있으므로, 작성한 규칙을 영어로 번역하면 인식률이 향상될 수 있습니다.
 
-    ![번역된 영어 결과물](../assets/images/gemini-cli-guide/image-10.png)
+    ![번역된 영어 결과물](/assets/images/gemini-cli-guide/image-10.png)
 5.  **`GEMINI.md` 파일 생성 및 저장하기**
     -   정의한 규칙이 담긴 `GEMINI.md` 파일을 생성합니다.
     -   해당 파일을 위에서 확인한 경로(`C:\Users\사용자이름\.gemini`) 안에 저장합니다.
@@ -136,7 +136,7 @@ Gemini CLI의 주요 기능으로, **`GEMINI.md`** 파일을 통해 AI의 역할
 6.  **설정 적용 확인**
     - PowerShell에서 `gemini`를 다시 실행했을 때, `Using 1 GEMINI.md file` 메시지가 출력되면 성공적으로 적용된 것임.
 
-    ![Context 파일 적용 확인](../assets/images/gemini-cli-guide/image-11.png)
+    ![Context 파일 적용 확인](/assets/images/gemini-cli-guide/image-11.png)
 
 ---
 
