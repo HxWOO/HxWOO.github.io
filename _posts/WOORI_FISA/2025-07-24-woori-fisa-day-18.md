@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "4주차 18일차: 데이터베이스 자동화와 성능 최적화의 비밀"
+title:  "데이터베이스 자동화와 성능 최적화의 비밀"
 date:   2025-07-24 09:00:00 +0900
 categories: [AI Engineering, Woori FISA]
 tags: [SQL, Database, Stored Procedure, Trigger, Partition, '#우리FIS아카데미', '#우리FISA', '#AI엔지니어링', '#K-디지털트레이닝', '#우리에프아이에스', '#글로벌소프트웨어캠퍼스']
