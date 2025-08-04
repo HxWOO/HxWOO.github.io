@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "[WOORI FISA] 5주차 21일차: Docker 심화, 나만의 컨테이너 만들기! 🛠️"
+title:  "5주차 21일차: Docker 심화, 나만의 컨테이너 만들기! 🛠️"
 date:   2025-07-29 00:00:00 +0900
 categories: [AI Engineering, Woori FISA]
 tags: [docker, container, devops, dockerfile, mount, '#우리FIS아카데미', '#우리FISA', '#AI엔지니어링', '#K-디지털트레이닝', '#우리에프아이에스', '#글로벌소프트웨어캠퍼스']
