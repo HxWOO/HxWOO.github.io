@@ -134,9 +134,9 @@ def timsort(arr):
 
 ## 📚 참고 자료
 
--   [Wikipedia: Timsort][3]
--   [GeeksforGeeks: Tim Sort in Python][2]
--   [Real Python: Sorting Algorithms in Python][5]
--   [skerritt.blog: Timsort — the fastest sorting algorithm you've never heard of][4]
+-   [Wikipedia: Timsort](https://en.wikipedia.org/wiki/Timsort)[3]
+-   [GeeksforGeeks: Tim Sort in Python](https://www.geeksforgeeks.org/dsa/tim-sort-in-python/)[2]
+-   [Real Python: Sorting Algorithms in Python](https://realpython.com/sorting-algorithms-python/)[5]
+-   [skerritt.blog: Timsort — the fastest sorting algorithm you've never heard of](https://skerritt.blog/timsort/)[4]
 
 ---
