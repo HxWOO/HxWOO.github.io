@@ -2,7 +2,7 @@
 layout: post
 title:  "ELK 스택의 핵심! Logstash와 Filebeat로 로그 파이프라인 구축하기 🛠️"
 date:   2025-08-13 10:00:00 +0900
-categories: [AI Engineering, Woori FISA]
+categories: [ELK, Woori FISA]
 tags: [ELK, Logstash, Filebeat, Elasticsearch, 데이터파이프라인, 로그수집, '#우리FISA아카데미', '#우리FISA', '#AI엔지니어링', '#K-디지털트레이닝', '#우리에프아이에스', '#글로벌소프트웨어캠퍼스']
 ---
 

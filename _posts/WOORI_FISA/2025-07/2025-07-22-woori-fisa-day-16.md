@@ -2,7 +2,7 @@
 layout: post
 title:  "JOIN과 Subquery, 흩어진 데이터를 연결하는 힘"
 date:   2025-07-22 09:00:00 +0900
-categories: [AI Engineering, Woori FISA]
+categories: [데이터베이스, Woori FISA]
 tags: [SQL, Database, JOIN, Subquery, CTE, '#우리FIS아카데미', '#우리FISA', '#AI엔지니어링', '#K-디지털트레이닝', '#우리에프아이에스', '#글로벌소프트웨어캠퍼스']
 ---
 

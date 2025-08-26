@@ -2,7 +2,7 @@
 layout: post
 title:  "우리 FISA AI 엔지니어링 과정 한 달, 성장의 기록"
 date:   2025-07-26 09:00:00 +0900
-categories: [AI Engineering, Woori FISA]
+categories: [회고, Woori FISA]
 tags: [ '#회고', '#첫달후기', '#우리FIS아카데미', '#우리FISA', '#AI엔지니어링', '#K-디지털트레이닝', '#우리에프아이에스', '#글로벌소프트웨어캠퍼스']
 ---
 

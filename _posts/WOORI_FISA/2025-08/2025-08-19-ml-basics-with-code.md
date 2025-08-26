@@ -2,7 +2,7 @@
 layout: post
 title:  "🤖 머신러닝 기초, 통계부터 딥러닝까지 코드로 정복하기!"
 date:   2025-08-19 10:00:00 +0900
-categories: [AI Engineering, Woori FISA]
+categories: [Machine Learning, Woori FISA]
 tags: ['Python', 'Pandas', 'Statistics', 'ML', 'DeepLearning', '#우리FIS아카데미', '#우리FISA', '#AI엔지니어링', '#K-디지털트레이닝', '#우리에프아이에스', '#글로벌소프트웨어캠퍼스']
 ---
 

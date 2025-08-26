@@ -2,7 +2,7 @@
 layout: post
 title:  "파이썬, Colab, 그리고 AI 엔지니어링 첫걸음"
 date:   2025-07-01 09:00:00 +0900
-categories: [AI Engineering, Woori FISA]
+categories: [Python, Woori FISA]
 tags: [Python, Google Colab, AI, Machine Learning, '#우리FIS아카데미', '#우리FISA', '#AI엔지니어링', '#K-디지털트레이닝', '#우리에프아이에스', '#글로벌소프트웨어캠퍼스']
 ---
 

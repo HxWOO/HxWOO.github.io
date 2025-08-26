@@ -2,7 +2,7 @@
 layout: post
 title:  "Elasticsearch 데이터 다이어트 비법! 인덱스 전략과 Python 연동 🐍"
 date:   2025-08-14 10:00:00 +0900
-categories: [AI Engineering, Woori FISA]
+categories: [ELK, Woori FISA]
 tags: [Elasticsearch, Python, ELK, Data Engineering, Index, ILM, Data Stream, '#우리FIS아카데미', '#우리FISA', '#AI엔지니어링', '#K-디지털트레이닝', '#우리에프아이에스', '#글로벌소프트웨어캠퍼스']
 ---
 

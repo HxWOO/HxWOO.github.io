@@ -2,7 +2,7 @@
 layout: post
 title: "[프로젝트 회고] 🤖 OpenAI와 GitHub Actions로 나만의 기업 분석 비서 만들기"
 date: 2025-08-06 00:00:00 +0900
-categories: [Project, AI Engineering, Woori FISA]
+categories: [Project, Woori FISA]
 tags: [python, project, openai, gpt, github-actions, automation, web-scraping, '#우리FIS아카데미', '#우리FISA', '#AI엔지니어링', '#K-디지털트레이닝', '#우리에프아이에스', '#글로벌소프트웨어캠퍼스']
 ---
 

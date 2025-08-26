@@ -2,7 +2,7 @@
 layout: post
 title: "Linux 파일 권한, 패키지 및 네트워크 관리"
 date: 2025-08-05 00:00:00 +0900
-categories: [AI Engineering, Woori FISA]
+categories: [Linux, Woori FISA]
 tags: [linux, permission, package, network, ssh, scp, '#우리FIS아카데미', '#우리FISA', '#AI엔지니어링', '#K-디지털트레이닝', '#우리에프아이에스', '#글로벌소프트웨어캠퍼스']
 ---
 

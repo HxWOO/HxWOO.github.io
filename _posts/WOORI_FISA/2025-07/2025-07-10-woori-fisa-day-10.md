@@ -2,7 +2,7 @@
 layout: post
 title:  "EDA와 데이터 시각화 (Matplotlib, Seaborn)"
 date:   2025-07-10 09:00:00 +0900
-categories: [AI Engineering, Woori FISA]
+categories: [데이터 분석, Woori FISA]
 tags: [Python, EDA, Matplotlib, Seaborn, Data Visualization, '#우리FIS아카데미', '#우리FISA', '#AI엔지니어링', '#K-디지털트레이닝', '#우리에프아이에스', '#글로벌소프트웨어캠퍼스']
 ---
 
