@@ -2,7 +2,7 @@
 layout: post
 title:  "🏦 은행 고객은 왜 떠났을까? 분류 모델링 A to Z"
 date:   2025-08-25 12:00:00 +0900
-categories: [WOORI_FISA, Machine Learning]
+categories: [WOORI FISA, Machine Learning]
 tags: [분류, 데이터전처리, 하이퍼파라미터튜닝, AutoML, PyCaret, Scikit-learn, '#우리FIS아카데미', '#우리FISA', '#AI엔지니어링', '#K-디지털트레이닝', '#우리에프아이에스', '#글로벌소프트웨어캠퍼스']
 ---
 

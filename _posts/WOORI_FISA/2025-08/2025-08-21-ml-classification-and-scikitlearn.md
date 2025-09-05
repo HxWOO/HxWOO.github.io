@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "🤖 Scikit-Learn으로 떠나는 머신러닝 분류 탐험기 (코드 보강판)"
+title:  "🤖 Scikit-Learn으로 떠나는 머신러닝 분류 탐험기"
 date:   2025-08-21 10:00:00 +0900
 categories: [Machine Learning, Woori FISA]
 tags: [머신러닝, 분류, Scikit-learn, 퍼셉트론, 로지스틱 회귀, SVM, 결정 트리, KNN, 규제, '#우리FIS아카데미', '#우리FISA', '#AI엔지니어링', '#K-디지털트레이닝', '#우리에프아이에스', '#글로벌소프트웨어캠퍼스']

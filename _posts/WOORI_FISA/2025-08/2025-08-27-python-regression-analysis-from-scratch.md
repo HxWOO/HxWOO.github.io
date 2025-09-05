@@ -2,7 +2,7 @@
 layout: post
 title:  "📈 파이썬으로 회귀 분석 정복하기: 기초부터 AutoML까지"
 date:   2025-08-27 19:30:00 +0900
-categories: [WOORI_FISA, Machine_Learning]
+categories: [WOORI FISA, Machine_Learning]
 tags: [python, scikit-learn, regression, automl, pycaret, 회귀분석, 머신러닝, '#우리FIS아카데미', '#우리FISA', '#AI엔지니어링', '#K-디지털트레이닝', '#우리에프아이에스', '#글로벌소프트웨어캠퍼스']
 ---
 

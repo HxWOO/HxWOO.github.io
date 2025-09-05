@@ -2,7 +2,7 @@
 layout: post
 title:  "🤖 집단지성의 힘, 앙상블 학습으로 모델 성능 극대화하기"
 date:   2025-08-27 20:00:00 +0900
-categories: [WOORI_FISA, Machine_Learning]
+categories: [WOORI FISA, Machine_Learning]
 tags: [ensemble, voting, bagging, boosting, random-forest, xgboost, 앙상블, 머신러닝, '#우리FIS아카데미', '#우리FISA', '#AI엔지니어링', '#K-디지털트레이닝', '#우리에프아이에스', '#글로벌소프트웨어캠퍼스']
 ---
 

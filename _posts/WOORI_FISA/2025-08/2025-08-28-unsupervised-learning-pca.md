@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "PCA부터 t-SNE까지, 차원 축소 완전 정복! 🚀"
+title:  "🧙‍♂️ PCA부터 t-SNE까지, 차원 축소 완전 정복!"
 date:   2025-08-28 20:00:00 +0900
 categories: [Machine_Learning, Woori FISA]
 tags: [PCA, t-SNE, 비지도학습, 차원축소, Manifold Learning, Scikit-learn, Python, '#우리FIS아카데미', '#우리FISA', '#AI엔지니어링', '#K-디지털트레이닝', '#우리에프아이에스', '#글로벌소프트웨어캠퍼스']
