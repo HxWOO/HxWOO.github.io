@@ -2,7 +2,7 @@
 layout: post
 title:  "🔥 우리 FISA 5기, 첫 기술 세미나를 돌아보며"
 date:   2025-08-22 09:00:00 +0900
-categories: [WOORI FISA]
+categories: [Woori FISA]
 tags: [TechSeminar, RAG, MLOps, MSA, AI, '#우리FIS아카데미', '#우리FISA', '#AI엔지니어링', '#K-디지털트레이닝', '#우리에프아이에스', '#글로벌소프트웨어캠퍼스']
 ---
 

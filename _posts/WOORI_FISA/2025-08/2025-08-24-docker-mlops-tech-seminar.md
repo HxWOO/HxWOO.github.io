@@ -2,7 +2,7 @@
 layout: post
 title:  "🛠️ 나의 첫 MLOps 파이프라인 구축기 (feat. Docker)"
 date:   2025-08-24 10:00:00 +0900
-categories: [WOORI FISA, Project]
+categories: [Woori FISA, Project]
 tags: [Docker, MLOps, MLflow, FastAPI, Streamlit, MSA, '#우리FIS아카데미', '#우리FISA', '#AI엔지니어링', '#K-디지털트레이닝', '#우리에프아이에스', '#글로벌소프트웨어캠퍼스']
 ---
 

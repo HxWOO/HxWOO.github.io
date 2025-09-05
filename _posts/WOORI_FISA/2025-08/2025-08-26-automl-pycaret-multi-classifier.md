@@ -2,7 +2,7 @@
 layout: post
 title:  "🤖 AutoML, 코딩의 종말? PyCaret으로 모델링 완전 정복"
 date:   2025-08-26 10:00:00 +0900
-categories: [WOORI FISA, Machine Learning]
+categories: [Woori FISA, Machine Learning]
 tags: [AutoML, PyCaret, 로우코드, MLOps, 데이터분석, '#우리FIS아카데미', '#우리FISA', '#AI엔지니어링', '#K-디지털트레이닝', '#우리에프아이에스', '#글로벌소프트웨어캠퍼스']
 ---
 
