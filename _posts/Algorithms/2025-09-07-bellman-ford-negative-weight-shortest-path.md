@@ -2,7 +2,7 @@
 layout: post
 title:  "벨만-포드(Bellman-Ford) 알고리즘: 음수 가중치와 최단 경로"
 date:   2025-09-07 00:00:00 +0900
-categories: Computer_Science
+categories: Algorithms
 tags: [bellman-ford, algorithm, shortest_path, graph, python, negative_weight]
 ---
 

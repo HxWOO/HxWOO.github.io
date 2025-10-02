@@ -2,7 +2,7 @@
 layout: post
 title:  "플로이드-워셜(Floyd-Warshall) 알고리즘: 모든 쌍 최단 경로"
 date:   2025-09-04 00:00:00 +0900
-categories: Computer_Science
+categories: Algorithms
 tags: [floyd-warshall, algorithm, shortest_path, graph, python, dynamic_programming]
 ---
 

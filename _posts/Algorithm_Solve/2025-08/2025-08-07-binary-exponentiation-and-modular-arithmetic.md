@@ -2,7 +2,7 @@
 layout: post
 title:  "[알고리즘] 분할 정복을 이용한 거듭제곱 (이진 분할법)"
 date:   2025-08-07 00:00:00 +0900
-categories: Algorithms
+categories: Algorithm_Solve
 tags: [algorithm, math, divide-and-conquer, binary-exponentiation, boj-1629]
 ---
 

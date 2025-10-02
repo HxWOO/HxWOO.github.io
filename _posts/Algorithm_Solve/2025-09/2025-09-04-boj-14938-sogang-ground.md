@@ -2,7 +2,7 @@
 layout: post
 title:  "[BOJ] 14938번: 서강그라운드"
 date:   2025-09-04 10:00:00 +0900
-categories: [Algorithm Solve]
+categories: [Algorithm_Solve]
 tags: [PS, BOJ, Floyd-Warshall, Shortest Path]
 ---
 

@@ -2,7 +2,7 @@
 layout: post
 title:  "[Python] 🐍 파이썬의 정렬과 팀소트(Timsort) 완벽 정리"
 date:   2025-08-04 00:00:00 +0900
-categories: Computer_Science
+categories: Algorithms
 tags: [python, sort, timsort, algorithm]
 ---
 

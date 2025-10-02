@@ -2,7 +2,7 @@
 layout: post
 title:  "다익스트라(Dijkstra) 알고리즘: 최단 경로 찾기"
 date:   2025-08-12 00:00:00 +0900
-categories: Computer_Science
+categories: Algorithms
 tags: [dijkstra, algorithm, shortest_path, graph, python]
 ---
 

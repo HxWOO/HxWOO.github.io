@@ -2,7 +2,7 @@
 layout: post
 title:  "[Algorithm] N-Queen 문제와 알고리즘 완벽 정리"
 date:   2025-08-27 00:00:00 +0900
-categories: Computer_Science
+categories: Algorithms
 tags: [n-queen, backtracking, algorithm, python]
 ---
 
