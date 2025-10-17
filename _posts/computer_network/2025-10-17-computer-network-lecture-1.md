@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "컴퓨터 네트워크의 첫걸음"
+title: "컴퓨터 네트워크의 첫걸음 1️⃣"
 date: 2025-10-17 10:00:00 +0900
 categories: [computer_network]
 tags: [network, internet, study]
