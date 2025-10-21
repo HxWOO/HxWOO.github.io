@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "DNS, CDN, 그리고 소켓 프로그래밍  SOCKET PROGRAMMING 📡"
-date: 2025-10-17 10:00:00 +0900
-categories: [computer_network]
+date: 2025-10-14 10:00:00 +0900
+categories: [컴퓨터 네트워크]
 tags: [dns, cdn, socket, study]
 ---
 
@@ -14,7 +14,7 @@ tags: [dns, cdn, socket, study]
 
 DNS는 여러 개의 네임 서버로 데이터베이스가 분리되어 있고, 계층 구조를 따른다. 왜 단일 서버를 쓰지 않을까? 단일화하면 트래픽, 유지보수, 확장성 등에서 큰 문제가 발생하기 때문이다.
 
-![Untitled](../../assets/images/computer_network_3/Untitled.png)
+![Untitled](https://raw.githubusercontent.com/HxWOO/HxWOO.github.io/master/assets/images/computer_network_3/Untitled.png)
 
 예를 들어 `amazon.com`에 접속하려면, 내 컴퓨터는 먼저 **Root 서버**에 물어보고, Root 서버는 `.com` 서버 주소를 알려준다. 그럼 `.com` 서버에 물어봐서 `amazon.com` 서버의 주소를 최종적으로 알아내는 식이다.
 
@@ -37,10 +37,10 @@ DNS는 **Resource Record(RR)** 라는 형식으로 정보를 저장한다. `(nam
 -   `CNAME`: `name` = 별칭(alias), `value` = 진짜 이름(canonical name)
 -   `MX`: `name` = 도메인, `value` = 메일 서버(SMTP) 이름
 
-![Untitled](../../assets/images/computer_network_3/Untitled%201.png)
+![Untitled](https://raw.githubusercontent.com/HxWOO/HxWOO.github.io/master/assets/images/computer_network_3/Untitled%201.png)
 *DNS 쿼리와 응답 메시지 구조*
 
-![Untitled](../../assets/images/computer_network_3/Untitled%202.png)
+![Untitled](https://raw.githubusercontent.com/HxWOO/HxWOO.github.io/master/assets/images/computer_network_3/Untitled%202.png)
 *메시지 헤더의 플래그 필드*
 
 보안 문제도 중요하다. **DDoS 공격**으로 루트 서버를 마비시키려 하거나, **스푸핑(Spoofing) 공격**으로 DNS 캐시를 오염시켜 가짜 사이트로 유도할 수 있다. 😭 이를 막기 위해 **DNSSEC** 같은 보안 기술이 있지만, 성능 부담이 따를 수 있다.
@@ -61,10 +61,10 @@ DNS는 **Resource Record(RR)** 라는 형식으로 정보를 저장한다. `(nam
 -   **서버**: 하나의 비디오를 여러 개의 작은 **청크(chunk)** 로 나눈다. 그리고 각 청크를 다양한 화질(bit rate)로 인코딩해서 저장해둔다. 이 정보들을 담은 **Manifest 파일**도 준비한다.
 -   **클라이언트 (플레이어)**: 주기적으로 자신의 네트워크 대역폭을 측정한다. 그리고 Manifest 파일을 보고, 현재 대역폭에서 감당할 수 있는 최적의 화질로 청크를 요청한다.
 
-![Untitled](../../assets/images/computer_network_3/Untitled%203.png)
+![Untitled](https://raw.githubusercontent.com/HxWOO/HxWOO.github.io/master/assets/images/computer_network_3/Untitled%203.png)
 *이상적인 스트리밍 시나리오*
 
-![Untitled](../../assets/images/computer_network_3/Untitled%204.png)
+![Untitled](https://raw.githubusercontent.com/HxWOO/HxWOO.github.io/master/assets/images/computer_network_3/Untitled%204.png)
 *현실의 스트리밍 (DASH)*
 
 클라이언트가 언제, 어떤 화질로, 어디(어떤 서버)에 요청할지 스스로 결정한다. 덕분에 우리는 네트워크 상황이 바뀌어도 끊김 없이 영상을 볼 수 있는 것이다.
@@ -80,14 +80,14 @@ DNS는 **Resource Record(RR)** 라는 형식으로 정보를 저장한다. `(nam
 
 넷플릭스는 자체 CDN인 **OpenConnect**를 사용하고, **OTT(Over-the-top)** 서비스들이 이런 CDN을 통해 우리에게 콘텐츠를 전달한다.
 
-![Untitled](../../assets/images/computer_network_3/Untitled%205.png)
+![Untitled](https://raw.githubusercontent.com/HxWOO/HxWOO.github.io/master/assets/images/computer_network_3/Untitled%205.png)
 *OTT 서비스가 CDN을 이용하는 방식*
 
 ## 소켓 프로그래밍 (Socket Programming)
 
 애플리케이션 프로세스와 네트워크 프로토콜 사이의 '문(door)' 역할을 하는 것이 바로 **소켓(socket)** 이다.
 
-![Untitled](../../assets/images/computer_network_3/Untitled%206.png)
+![Untitled](https://raw.githubusercontent.com/HxWOO/HxWOO.github.io/master/assets/images/computer_network_3/Untitled%206.png)
 
 ### UDP 소켓 프로그래밍
 
@@ -102,5 +102,5 @@ DNS는 **Resource Record(RR)** 라는 형식으로 정보를 저장한다. `(nam
 -   요청이 오면, `accept()` 메소드를 통해 실제 통신에 사용할 `Connection Socket`을 생성한다.
 -   이후 통신은 이 `Connection Socket`을 통해 이루어진다. 신뢰성 있는 데이터 전송을 보장한다!
 
-![Untitled](../../assets/images/computer_network_3/Untitled%207.png)
+![Untitled](https://raw.githubusercontent.com/HxWOO/HxWOO.github.io/master/assets/images/computer_network_3/Untitled%207.png)
 *TCP 소켓 통신 과정*

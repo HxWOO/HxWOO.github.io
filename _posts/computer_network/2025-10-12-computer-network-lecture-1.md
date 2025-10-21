@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "컴퓨터 네트워크의 첫걸음 1️⃣"
-date: 2025-10-17 10:00:00 +0900
-categories: [computer_network]
+date: 2025-10-12 10:00:00 +0900
+categories: [컴퓨터 네트워크]
 tags: [network, internet, study]
 ---
 
@@ -26,7 +26,7 @@ tags: [network, internet, study]
 
 집에서는 보통 케이블이나 DSL 모뎀을 통해 인터넷 신호를 받아와 라우터로 와이파이를 구성해서 사용한다. 공유기를 통해 여러 디바이스가 인터넷에 접속하는 익숙한 모습이다.
 
-![home network](../../assets/images/computer_network_1/Untitled.png)
+![home network](https://raw.githubusercontent.com/HxWOO/HxWOO.github.io/master/assets/images/computer_network_1/Untitled.png)
 
 기업 환경에서는 이더넷(유선)과 와이파이(무선)를 함께 사용하여 수많은 장치들을 스위치와 라우터에 연결한다. 규모가 클수록 유선 연결이 경제적이고 안정적이라, 보통 2개 이상의 인터넷 회선을 유지하며 리스크를 관리한다고 한다.
 
@@ -38,7 +38,7 @@ tags: [network, internet, study]
 
 여기서 패킷 전송 시간(packet transmission delay)은 L/R 초가 된다.
 
-![transmission rate](../../assets/images/computer_network_1/Untitled_1.png)
+![transmission rate](https://raw.githubusercontent.com/HxWOO/HxWOO.github.io/master/assets/images/computer_network_1/Untitled_1.png)
 
 중요한 점은, 이 시간은 단순히 내 컴퓨터에서 패킷을 네트워크로 내보내는 데 걸리는 시간일 뿐, 패킷이 목적지까지 도착하는 시간은 아니라는 것이다. 아직 갈 길이 멀다... 😥
 
@@ -97,13 +97,13 @@ tags: [network, internet, study]
 3.  **전송 지연 (Transmission Delay):** 앞에서 봤던 L/R, 즉 패킷 전체를 링크로 밀어내는 데 걸리는 시간이다.
 4.  **전파 지연 (Propagation Delay):** 비트가 링크를 통해 물리적으로 전파되는 데 걸리는 시간이다. 링크의 길이(d)를 전파 속도(s)로 나눈 값(d/s)이다.
 
-![packet delay](../../assets/images/computer_network_1/Untitled_2.png)
+![packet delay](https://raw.githubusercontent.com/HxWOO/HxWOO.github.io/master/assets/images/computer_network_1/Untitled_2.png)
 
 ### 큐잉 지연 들여다보기
 
 큐잉 지연은 트래픽 강도(Traffic Intensity), 즉 `La/R` 값에 따라 극적으로 변한다. (L: 패킷 크기, a: 패킷 도착률, R: 링크 전송률)
 
-![queueing delay](../../assets/images/computer_network_1/Untitled_3.png)
+![queueing delay](https://raw.githubusercontent.com/HxWOO/HxWOO.github.io/master/assets/images/computer_network_1/Untitled_3.png)
 
 - `La/R`이 0에 가까우면: 큐잉 지연은 거의 없다. 한산한 도로! 🚗
 - `La/R`이 1에 가까워지면: 큐잉 지연이 급격히 증가한다. 퇴근길 정체 시작! 꽉 막힌다. 🚕
@@ -126,7 +126,7 @@ tags: [network, internet, study]
 - **순간 처리율(Instantaneous Throughput):** 특정 시점의 전송 속도.
 - **평균 처리율(Average Throughput):** 긴 시간 동안의 평균 전송 속도.
 
-![throughput](../../assets/images/computer_network_1/Untitled_4.png)
+![throughput](https://raw.githubusercontent.com/HxWOO/HxWOO.github.io/master/assets/images/computer_network_1/Untitled_4.png)
 
 네트워크 경로상에 여러 링크가 있을 때, 전체 처리율은 가장 속도가 느린 링크, 즉 **병목 링크(bottleneck link)** 에 의해 결정된다. 파이프가 아무리 넓어도 중간에 좁은 구간이 있으면 물이 그만큼만 흐르는 것과 같은 이치다.
 

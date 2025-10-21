@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "🌐 네트워크의 길잡이, 라우팅: 최적의 경로는 어떻게 찾을까? 8️⃣"
-date: 2025-10-23 20:00:00 +0900
-categories: [computer_network]
+date: 2025-10-19 20:00:00 +0900
+categories: [컴퓨터 네트워크]
 tags: [CS, Network, Routing, Link State, Distance Vector, OSPF, BGP, SDN, ICMP]
 ---
 
@@ -15,7 +15,7 @@ tags: [CS, Network, Routing, Link State, Distance Vector, OSPF, BGP, SDN, ICMP]
 - **라우터별 컨트롤 (Per-router control):** 각 라우터가 서로 정보를 교환하며 **독자적으로** 라우팅 테이블을 계산한다. 분산 방식이라 유연하지만, 라우터 간 정보 동기화가 완벽하지 않을 수 있다. 가장 널리 쓰이는 방식!
 - **중앙 집중형 컨트롤 (Logically centralized control):** **SDN(Software-Defined Networking)** 컨트롤러라는 중앙 지휘소에서 모든 라우터의 테이블을 계산하고 배포한다. 일관성이 보장된다는 큰 장점이 있다.
 
-![Untitled](/assets/images/computer_network_8/Untitled.png)
+![Untitled](https://raw.githubusercontent.com/HxWOO/HxWOO.github.io/master/assets/images/computer_network_8/Untitled.png)
 
 ## 1. 라우팅 알고리즘의 양대 산맥: LS vs DV
 
@@ -29,7 +29,7 @@ tags: [CS, Network, Routing, Link State, Distance Vector, OSPF, BGP, SDN, ICMP]
 
 LS 방식은 모든 라우터가 완전한 정보를 가지고 계산하므로 비교적 안정적이지만, 링크 비용이 트래픽 양에 따라 계속 변하면 경로가 계속 바뀌는 **진동(oscillation) 문제**가 발생할 수 있다.
 
-![Untitled](/assets/images/computer_network_8/Untitled%202.png)
+![Untitled](https://raw.githubusercontent.com/HxWOO/HxWOO.github.io/master/assets/images/computer_network_8/Untitled%202.png)
 
 ### Distance-Vector (DV) 알고리즘
 
@@ -48,7 +48,7 @@ DV 방식은 구조가 간단하고 분산적이지만, "나쁜 소식"이 느�
 - **내부 라우팅 (Intra-AS Routing):** AS **내에서** 경로를 결정하는 것. (e.g., OSPF, RIP)
 - **외부 라우팅 (Inter-AS Routing):** AS **간의** 경로를 결정하는 것. (e.g., BGP)
 
-![Untitled](/assets/images/computer_network_8/Untitled%205.png)
+![Untitled](https://raw.githubusercontent.com/HxWOO/HxWOO.github.io/master/assets/images/computer_network_8/Untitled%205.png)
 
 ### OSPF: 가장 널리 쓰이는 내부 라우팅 프로토콜
 
@@ -66,7 +66,7 @@ DV 방식은 구조가 간단하고 분산적이지만, "나쁜 소식"이 느�
 - **경로 벡터 (Path Vector):** BGP는 단순히 비용만 따지는 게 아니라, 목적지까지 거쳐가야 할 **AS들의 목록(AS-PATH)** 을 기반으로 경로를 결정한다.
 - **정책 기반 라우팅:** BGP의 가장 큰 특징은 **정책(policy)** 이 성능보다 우선될 수 있다는 점이다. 예를 들어, "A라는 회사의 AS는 절대 거치지 않겠다"와 같은 정책을 설정하여 라우팅 경로를 제어할 수 있다.
 
-![Untitled](/assets/images/computer_network_8/Untitled%207.png)
+![Untitled](https://raw.githubusercontent.com/HxWOO/HxWOO.github.io/master/assets/images/computer_network_8/Untitled%207.png)
 
 ## 3. SDN: 네트워크를 프로그래밍하다
 
@@ -76,7 +76,7 @@ DV 방식은 구조가 간단하고 분산적이지만, "나쁜 소식"이 느�
 - **중앙 집중 제어:** 컨트롤러가 전체 네트워크 상황을 보고 각 스위치의 동작 규칙(flow table)을 한 번에 결정하고 내려보낸다.
 - **프로그래머블:** 개발자는 컨트롤러의 API를 통해 라우팅, 부하 분산, 접근 제어 등 네트워크 동작을 마음대로 프로그래밍할 수 있게 된다! 💻
 
-![Untitled](/assets/images/computer_network_8/Untitled%209.png)
+![Untitled](https://raw.githubusercontent.com/HxWOO/HxWOO.github.io/master/assets/images/computer_network_8/Untitled%209.png)
 
 ### OpenFlow: SDN의 핵심 프로토콜
 

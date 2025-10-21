@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "🚚 전송 계층: TCP는 어떻게 신뢰성과 효율성을 모두 잡았을까? 5️⃣"
-date: 2025-10-21 21:00:00 +0900
-categories: [computer_network]
+date: 2025-10-16 21:00:00 +0900
+categories: [컴퓨터 네트워크]
 tags: [CS, Network, Transport Layer, TCP, Congestion Control, Flow Control, QUIC]
 ---
 
@@ -25,7 +25,7 @@ TCP는 rdt3.0의 문제를 **파이프라이닝(Pipelining)** 기법으로 해�
 
 TCP가 이 모든 기능을 수행할 수 있는 비밀은 바로 헤더에 있다.
 
-![Untitled](../../assets/images/computer_network_5/Untitled.png)
+![Untitled](https://raw.githubusercontent.com/HxWOO/HxWOO.github.io/master/assets/images/computer_network_5/Untitled.png)
 
 - **Sequence Number (순서 번호):** 세그먼트에 포함된 데이터의 첫 번째 바이트에 부여되는 고유 번호. 이를 통해 데이터의 순서를 재조립하고 중복을 제거한다.
 - **Acknowledgement Number (확인 응답 번호):** 수신자가 다음에 받기를 기대하는 바이트의 순서 번호. 예를 들어 199번까지 잘 받았다면, ACK 번호는 200이 된다. TCP는 **누적 ACK(cumulative ACK)**를 사용하므로, 200번 ACK는 199번까지의 모든 데이터를 문제없이 받았다는 의미를 내포한다.
@@ -57,7 +57,7 @@ TCP는 다음과 같은 상황에서 데이터를 재전송하여 신뢰성을 �
 1.  **Timeout:** 가장 기본적인 재전송 매커니즘. ACK를 받기 전에 타이머가 만료되면 해당 세그먼트를 재전송한다.
 2.  **Fast Retransmit (빠른 재전송):** 중간에 패킷 하나가 유실되면, 수신자는 유실된 패킷 다음의 패킷들을 받을 때마다 계속해서 동일한 ACK(유실된 패킷의 순서 번호를 가진)를 보낸다. 송신자가 이 **중복 ACK(duplicate ACK)를 3번** 받으면, 타임아웃이 발생하기 전이라도 '아, 패킷이 유실되었구나'라고 판단하고 해당 패킷을 즉시 재전송한다.
 
-![Untitled](../../assets/images/computer_network_5/Untitled%205.png)
+![Untitled](https://raw.githubusercontent.com/HxWOO/HxWOO.github.io/master/assets/images/computer_network_5/Untitled%205.png)
 
 ## 🌊 흐름 제어 (Flow Control)
 
@@ -65,7 +65,7 @@ TCP는 다음과 같은 상황에서 데이터를 재전송하여 신뢰성을 �
 
 수신자는 TCP 헤더의 **Receive Window (rwnd)** 필드를 통해 자신의 버퍼에 남은 공간의 크기를 송신자에게 계속 알려준다. 송신자는 이 `rwnd` 크기를 초과하지 않는 범위 내에서만 데이터를 전송한다.
 
-![Untitled](../../assets/images/computer_network_5/Untitled%207.png)
+![Untitled](https://raw.githubusercontent.com/HxWOO/HxWOO.github.io/master/assets/images/computer_network_5/Untitled%207.png)
 
 ## 🤝 연결 관리 (Connection Management)
 
@@ -106,7 +106,7 @@ TCP는 연결 초기에 `cwnd`를 1 MSS에서 시작하여, 매 RTT마다 2배�
     - **Timeout으로 감지:** `ssthresh`를 `cwnd/2`로 설정하고, `cwnd`를 1 MSS로 리셋한 후 다시 Slow Start를 시작한다. (심각한 혼잡으로 간주)
     - **3 중복 ACK로 감지:** `ssthresh`와 `cwnd`를 모두 `cwnd/2`로 설정하고 Congestion Avoidance 단계부터 시작한다. (비교적 덜 심각한 혼잡으로 간주, TCP Reno 방식)
 
-![Untitled](../../assets/images/computer_network_5/Untitled%2012.png)
+![Untitled](https://raw.githubusercontent.com/HxWOO/HxWOO.github.io/master/assets/images/computer_network_5/Untitled%2012.png)
 
 ### TCP CUBIC & BBR
 

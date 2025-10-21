@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "네트워크 앱의 동작 원리 🧑‍💻"
-date: 2025-10-17 11:00:00 +0900
-categories: [computer_network]
+date: 2025-10-13 11:00:00 +0900
+categories: [컴퓨터 네트워크]
 tags: [network, application-layer, http, study]
 ---
 
@@ -56,7 +56,7 @@ HTTP, SMTP 같은 표준 프로토콜들은 **RFC(Request for Comments)** 문서
 -   **처리율(Throughput):** 비디오 스트리밍처럼 최소한의 대역폭이 보장되어야 효율적인 앱도 있다.
 -   **보안(Security):** 암호화나 데이터 무결성 보장이 필요한 경우.
 
-![transport service needs](../../assets/images/computer_network_2/Untitled.png)
+![transport service needs](https://raw.githubusercontent.com/HxWOO/HxWOO.github.io/master/assets/images/computer_network_2/Untitled.png)
 
 ## 4. 인터넷 전송 프로토콜: TCP vs UDP
 
@@ -92,7 +92,7 @@ HTTP, SMTP 같은 표준 프로토콜들은 **RFC(Request for Comments)** 문서
 -   **클라이언트(브라우저):** 서버에 웹 객체(HTML, 이미지 등)를 요청하고 받아와서 화면에 표시한다.
 -   **서버:** 클라이언트의 요청에 응답하여 객체를 보내준다.
 
-![http overview](../../assets/images/computer_network_2/Untitled%201.png)
+![http overview](https://raw.githubusercontent.com/HxWOO/HxWOO.github.io/master/assets/images/computer_network_2/Untitled%201.png)
 
 HTTP는 **TCP**를 사용하며, **Stateless** 하다는 중요한 특징이 있다. 즉, 서버는 클라이언트의 과거 요청을 기억하지 않는다. (기억하면 서버가 너무 복잡해진다.)
 
@@ -104,8 +104,8 @@ HTTP는 **TCP**를 사용하며, **Stateless** 하다는 중요한 특징이 있
     -   매번 연결을 맺고 끊느라 오버헤드가 크다.
     -   응답 시간 = 2 * RTT + 파일 전송 시간 (RTT: 패킷 왕복 시간)
 
-    ![non-persistent http](../../assets/images/computer_network_2/Untitled%202.png)
-    ![non-persistent http time](../../assets/images/computer_network_2/Untitled%203.png)
+    ![non-persistent http](https://raw.githubusercontent.com/HxWOO/HxWOO.github.io/master/assets/images/computer_network_2/Untitled%202.png)
+    ![non-persistent http time](https://raw.githubusercontent.com/HxWOO/HxWOO.github.io/master/assets/images/computer_network_2/Untitled%203.png)
 
 -   **Persistent HTTP (HTTP/1.1 기본):**
     -   하나의 TCP 연결로 **여러 객체**를 전송할 수 있다.
@@ -116,7 +116,7 @@ HTTP는 **TCP**를 사용하며, **Stateless** 하다는 중요한 특징이 있
 
 HTTP 메시지는 요청(request)과 응답(response) 메시지로 나뉜다.
 
-![http request message](../../assets/images/computer_network_2/Untitled%204.png)
+![http request message](https://raw.githubusercontent.com/HxWOO/HxWOO.github.io/master/assets/images/computer_network_2/Untitled%204.png)
 
 -   **POST:** 사용자가 입력한 데이터를 메시지의 `entity body`에 담아 서버로 보낸다. (e.g., 로그인, 회원가입)
 -   **GET:** 데이터를 URL의 `?` 뒤에 붙여서 보낸다. (e.g., 검색)
@@ -144,7 +144,7 @@ Stateless한 HTTP에서 어떻게 서버는 나를 기억하고 로그인 상태
 
 **쿠키 동작 방식:**
 
-![cookie flow](../../assets/images/computer_network_2/Untitled%205.png)
+![cookie flow](https://raw.githubusercontent.com/HxWOO/HxWOO.github.io/master/assets/images/computer_network_2/Untitled%205.png)
 
 1.  최초 요청 시, 서버는 사용자를 위한 고유 ID를 생성하여 쿠키에 담아 응답한다. (백엔드 DB에도 이 ID를 저장)
 2.  브라우저는 이 쿠키를 저장한다.
@@ -178,7 +178,7 @@ Stateless한 HTTP에서 어떻게 서버는 나를 기억하고 로그인 상태
     -   이를 통해 HOL Blocking 문제를 해결하고, 리소스 간 우선순위를 둘 수도 있다.
     -   서버가 요청하지 않은 리소스를 미리 보내주는 **서버 푸시(Server Push)** 기능도 있다.
 
-![http2 interleaving](../../assets/images/computer_network_2/Untitled%206.png)
+![http2 interleaving](https://raw.githubusercontent.com/HxWOO/HxWOO.github.io/master/assets/images/computer_network_2/Untitled%206.png)
 
 ### HTTP/3
 

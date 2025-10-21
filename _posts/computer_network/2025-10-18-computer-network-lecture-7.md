@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "🌐 네트워크의 진화: NAT, IPv6, 그리고 SDN 7️⃣"
-date: 2025-10-22 20:00:00 +0900
-categories: [computer_network]
+date: 2025-10-18 20:00:00 +0900
+categories: [컴퓨터 네트워크]
 tags: [CS, Network, NAT, IPv6, SDN, OpenFlow, Middlebox]
 ---
 
@@ -35,16 +35,16 @@ IPv4의 32비트 주소 공간(약 43억 개)은 이미 오래전에 고갈되�
     - **헤더 단순화:** 헤더 길이를 40바이트로 고정하고, 체크섬, 단편화/재조립 같은 불필요한 필드를 제거하여 라우터의 처리 속도를 높였다.
     - **QoS 지원:** `priority` 필드를 이용해 특정 트래픽(e.g., 실시간 영상)을 우선 처리할 수 있도록 설계되었다.
 
-![Untitled](/assets/images/computer_network_7/Untitled.png)
+![Untitled](https://raw.githubusercontent.com/HxWOO/HxWOO.github.io/master/assets/images/computer_network_7/Untitled.png)
 
 - **IPv4와의 전환: 터널링(Tunneling)**
     - IPv4와 IPv6는 서로 호환되지 않는다. 그래서 모든 네트워크가 한 번에 IPv6로 바뀔 수는 없다.
     - 이 문제를 해결하기 위해 **터널링**이라는 기법을 사용한다. IPv6 패킷을 IPv4 패킷의 **데이터(payload) 부분에 통째로 넣어서** IPv4 네트워크를 통과하는 방식이다.
     - 마치 IPv6라는 승객을 태운 자동차(IPv4 패킷)가 IPv4 전용 도로를 달리는 것과 같다.
 
-![Untitled](/assets/images/computer_network_7/Untitled%201.png)
+![Untitled](https://raw.githubusercontent.com/HxWOO/HxWOO.github.io/master/assets/images/computer_network_7/Untitled%201.png)
 
-![Untitled](/assets/images/computer_network_7/Untitled%202.png)
+![Untitled](https://raw.githubusercontent.com/HxWOO/HxWOO.github.io/master/assets/images/computer_network_7/Untitled%202.png)
 
 아직 많은 곳에서 NAT와 같은 방법으로 IPv4를 사용하고 있지만, 점차 IPv6로의 전환이 이루어지고 있다.
 
@@ -56,7 +56,7 @@ IPv4의 32비트 주소 공간(약 43억 개)은 이미 오래전에 고갈되�
     - "목적지 IP 주소만 본다"는 규칙에서 벗어나, **다양한 헤더 필드(MAC 주소, 포트 번호 등)를 조합(Match)** 하여, **미리 정의된 다양한 동작(Action)**(e.g., 전달, 폐기, 수정, 복사)을 수행하는 패러다임이다.
     - 이 규칙들의 집합을 **Flow Table**이라고 한다.
 
-![Untitled](/assets/images/computer_network_7/Untitled%204.png)
+![Untitled](https://raw.githubusercontent.com/HxWOO/HxWOO.github.io/master/assets/images/computer_network_7/Untitled%204.png)
 
 이러한 아이디어를 표준화한 것이 **OpenFlow** 프로토콜이며, 이를 통해 네트워크 전체를 소프트웨어로 중앙에서 제어하고 프로그래밍하는 기술을 **SDN(Software-Defined Networking)** 이라고 부른다.
 
@@ -69,10 +69,10 @@ SDN을 이용하면 방화벽, 로드 밸런서, NAT 같은 기능들을 더 이
 
 과거에는 이 원칙이 중요하게 여겨졌지만, 보안과 성능 향상 등의 현실적인 요구로 인해 방화벽, NAT 같은 미들박스들이 등장하면서 네트워크 중간(in-network)에서도 점점 더 많은 일들을 처리하게 되었다.
 
-![Untitled](/assets/images/computer_network_7/Untitled%209.png)
+![Untitled](https://raw.githubusercontent.com/HxWOO/HxWOO.github.io/master/assets/images/computer_network_7/Untitled%209.png)
 *(IP를 중심으로 한 모래시계 모델)*
 
-![Untitled](/assets/images/computer_network_7/Untitled%2010.png)
+![Untitled](https://raw.githubusercontent.com/HxWOO/HxWOO.github.io/master/assets/images/computer_network_7/Untitled%2010.png)
 *(미들박스로 인해 허리가 두꺼워진 현대의 인터넷)*
 
 이처럼 네트워크는 단순히 데이터를 전달하는 파이프에서 벗어나, 스스로 상황을 판단하고 트래픽을 제어하는 지능적인 플랫폼으로 진화하고 있다.

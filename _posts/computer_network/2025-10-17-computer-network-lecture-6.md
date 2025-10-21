@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "🌐 네트워크 계층: 인터넷의 택배 시스템은 어떻게 동작할까? 6️⃣"
-date: 2025-10-21 21:00:00 +0900
-categories: [computer_network]
+date: 2025-10-17 21:00:00 +0900
+categories: [컴퓨터 네트워크]
 tags: [CS, Network, Network Layer, IP, Routing, Forwarding, SDN, NAT, ICMP]
 ---
 
@@ -36,13 +36,13 @@ tags: [CS, Network, Network Layer, IP, Routing, Forwarding, SDN, NAT, ICMP]
 - 전통적으로는 각 라우터가 라우팅 알고리즘을 실행하며 서로 정보를 교환했지만, 최근에는 **SDN(Software-Defined Networking)** 이라는 새로운 접근 방식이 등장했다.
     - **SDN:** 중앙의 원격 컨트롤러가 전체 네트워크를 조망하며 경로를 계산하고, 각 라우터에 포워딩 규칙을 내려주는 방식이다. 덕분에 더 유연하고 중앙 집중적인 네트워크 관리가 가능해졌다.
 
-![Untitled](/assets/images/computer_network_6/Untitled.png)
+![Untitled](https://raw.githubusercontent.com/HxWOO/HxWOO.github.io/master/assets/images/computer_network_6/Untitled.png)
 
 ## 3. 라우터는 어떻게 생겼을까?
 
 라우터는 패킷을 포워딩하기 위해 특별히 설계된 고성능 컴퓨터다. 그 내부 구조를 간단히 살펴보자.
 
-![Untitled](/assets/images/computer_network_6/Untitled%201.png)
+![Untitled](https://raw.githubusercontent.com/HxWOO/HxWOO.github.io/master/assets/images/computer_network_6/Untitled%201.png)
 
 - **입력 포트 (Input Ports):** 물리적 링크로부터 패킷을 수신하고, 링크 계층 프로토콜을 처리한 뒤, 포워딩 테이블을 **조회(lookup)** 하여 패킷을 어디로 보낼지 결정한다. 여기서 지연이 발생하면 큐잉이 일어날 수 있다.
 - **스위칭 패브릭 (Switching Fabric):** 입력 포트와 출력 포트를 연결하는 라우터의 핵심부다. 패킷을 입력 포트에서 올바른 출력 포트로 신속하게 전달하는 역할을 한다. 메모리, 버스, 인터커넥션 네트워크 등 다양한 방식으로 구현된다.
@@ -53,7 +53,7 @@ tags: [CS, Network, Network Layer, IP, Routing, Forwarding, SDN, NAT, ICMP]
 
 포워딩 테이블을 조회할 때, 라우터는 목적지 IP 주소와 가장 길게 일치하는 항목(prefix)을 선택한다. 이를 **Longest Prefix Matching** 규칙이라고 한다. 덕분에 더 구체적인 경로 정보가 일반적인 경로 정보보다 우선순위를 갖게 되어 효율적인 라우팅이 가능하다.
 
-![Untitled](/assets/images/computer_network_6/Untitled%202.png)
+![Untitled](https://raw.githubusercontent.com/HxWOO/HxWOO.github.io/master/assets/images/computer_network_6/Untitled%202.png)
 
 ## 4. 인터넷의 주소 체계: IP 프로토콜
 
@@ -61,7 +61,7 @@ tags: [CS, Network, Network Layer, IP, Routing, Forwarding, SDN, NAT, ICMP]
 
 ### IPv4 데이터그램 포맷
 
-![Untitled](/assets/images/computer_network_6/Untitled%207.png)
+![Untitled](https://raw.githubusercontent.com/HxWOO/HxWOO.github.io/master/assets/images/computer_network_6/Untitled%207.png)
 
 - **Version:** IP 프로토콜의 버전 (e.g., 4).
 - **Header length:** 헤더의 길이. 옵션이 없으면 20바이트다.
@@ -75,7 +75,7 @@ tags: [CS, Network, Network Layer, IP, Routing, Forwarding, SDN, NAT, ICMP]
 - **서브넷 (Subnet):** IP 주소는 네트워크 부분을 나타내는 **서브넷 파트(subnet part)** 와 해당 네트워크 내에서 장치를 식별하는 **호스트 파트(host part)** 로 나뉜다. 라우터 없이 서로 통신할 수 있는 장치들의 집합을 하나의 서브넷이라고 볼 수 있다.
 - **서브넷 마스크 & CIDR:** `/24`와 같이 표현하며, IP 주소의 앞 24비트가 서브넷 부분임을 나타낸다. 이를 **CIDR(Classless InterDomain Routing)** 표기법이라고 하며, 기존의 A, B, C 클래스 방식보다 유연하게 주소를 할당하고 관리할 수 있게 해준다.
 
-![Untitled](/assets/images/computer_network_6/Untitled%208.png)
+![Untitled](https://raw.githubusercontent.com/HxWOO/HxWOO.github.io/master/assets/images/computer_network_6/Untitled%208.png)
 
 ### IP 주소는 어떻게 받을까? (DHCP)
 
